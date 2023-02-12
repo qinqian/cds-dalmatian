@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "cds-dalmatian"
+version = "0.0.18"
+description = "a fork of the firecloud-damination"
+authors = ["Alvin Qin <qqin@broadinstitute.org>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dalmatian"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+hound = "1.0.1"
+crayons = "0.2.0"
+agutil = "4.0.2"
+google-cloud-storage = "1.36.1"
+iso8601 = "1.1.0"
+pytz = "^2022.7.1"
+pandas = "^1.5.3"
+matplotlib = "^3.6.3"
+firecloud = "^0.16.35"
+mock = "^5.0.1"
+pytest = "^7.2.1"
+exceptiongroup = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

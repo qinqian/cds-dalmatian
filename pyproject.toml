@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "dalmatian"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 hound = "1.0.1"
 crayons = "0.2.0"
 agutil = "4.0.2"
